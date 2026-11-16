@@ -5,7 +5,7 @@ import { Toaster, toast } from 'react-hot-toast';
 import { useDebouncedCallback } from 'use-debounce';
 
 
-import { fetchNotes } from '../../services/noteService';
+import { fetchNotes } from '../../lib/api';
 import SearchBox from '../SearchBox/SearchBox';
 import Loader from '../Loader/Loader';
 import Pagination from '../Pagination/Pagination';
