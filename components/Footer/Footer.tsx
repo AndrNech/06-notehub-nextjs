@@ -9,10 +9,12 @@ export default function Footer() {
   //   setNow(new Date().getFullYear());
   // }, []);
 
+  const year = new Date().getFullYear();
+
   return (
     <footer className={css.footer}>
       <div className={css.content}>
-        <p>© {new Date().getFullYear()} NoteHub. All rights reserved.</p>
+        <p>© {year} NoteHub. All rights reserved.</p>
         <div className={css.wrap}>
           <p>Developer: your name</p>
           <p>
