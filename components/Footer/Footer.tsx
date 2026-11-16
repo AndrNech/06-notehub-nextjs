@@ -1,25 +1,15 @@
-// 'use client';
 import css from './Footer.module.css';
-// import { useEffect, useState } from 'react';
 
 export default function Footer() {
-  // const [now, setNow] = useState(2026);
-
-  // useEffect(() => {
-  //   setNow(new Date().getFullYear());
-  // }, []);
-
-  // const year = new Date().getFullYear();
-
   return (
     <footer className={css.footer}>
       <div className={css.content}>
         <p>© 2026 NoteHub. All rights reserved.</p>
         <div className={css.wrap}>
-          <p>Developer: your name</p>
+          <p>Developer: Andrii Nech</p>
           <p>
             Contact us:
-            <a href="<mailto:student@notehub.app>">student@notehub.app</a>
+            <a href="mailto:student@notehub.app">student@notehub.app</a>
           </p>
         </div>
       </div>

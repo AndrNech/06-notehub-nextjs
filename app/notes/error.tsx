@@ -13,7 +13,3 @@ export default function Error({ error, reset }: ErrorProps) {
     </>
   );
 }
-
-// Для перевірки коректної роботи error.tsx можна штучно створити помилку за допомогою: throw new Error('Error message');
-
-// Наприклад, тимчасово додайте цей код у компонент сторінки /notes або /notes/[id] та переконайтеся, що користувачу відображається fallback-інтерфейс помилки.
